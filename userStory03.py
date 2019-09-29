@@ -16,14 +16,14 @@ def us03_birth_b4_death(file):
             continue 
     
         if an_Indi.Birthday == 'NA':
-            error_string = f"ANOMALY: INDIVIDUAL: US03: {an_Indi.indID}: Birthdate not Found"
+            error_string = f"ANOMALY: INDIVIDUAL: US03: {an_Indi.indID}: Birthdate not Found "
             error_list.append(error_string)
             
     
         else:
             finalOutput = date_Check(an_Indi.Birthday, an_Indi.Death)
             if finalOutput == False:
-                error_string = f"ERROR: INDIVIDUAL: US03: {an_Indi.indID} : Died {an_Indi.Death} before born {an_Indi.Birthday}"
+                error_string = f"ERROR: INDIVIDUAL: US03: {an_Indi.indID} : Died {an_Indi.Death} before born {an_Indi.Birthday} "
                 error_list.append(error_string)
     
     

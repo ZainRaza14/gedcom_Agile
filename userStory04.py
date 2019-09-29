@@ -1,12 +1,13 @@
 from ParserModule import parse_main
-
+from utils import compare_date_to_todays_date
+from print_main import printTables
 '''
 US04	Marriage before divorce	sk
 US04	Marriage before divorce	
 Marriage should occur before divorce of spouses, and divorce can only occur after marriage
 '''
 
-def us04_marr_b4_divo(file):
+def user_story04(file):
     error_list = list()
     #printTables(file)
     indDict,famDict = parse_main(file)
@@ -19,7 +20,7 @@ def us04_marr_b4_divo(file):
 
 
 def user_story04_main():
-    error_list= us04_marr_b4_divo("us04testdata.ged")
+    error_list= user_story04("us04testdata.ged")
     for eacherror in error_list:
         print(eacherror)
 

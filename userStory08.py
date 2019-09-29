@@ -2,14 +2,13 @@ from ParserModule import parse_main
 from utils import compare_date_to_todays_date,checkDiffInMonths
 
 from print_main import printTables
-
 '''
 US08    Birth before marriage of parents	sk
 US08	Birth before marriage of parents	
 Children should be born after marriage of parents (and not more than 9 months after their divorce)
 '''
 
-def us08_birth_b4_marr_parents(file):
+def user_story08(file):
     error_list = list()
     #printTables(file)
     indDict,famDict = parse_main(file)
@@ -23,13 +22,13 @@ def us08_birth_b4_marr_parents(file):
                 birthday = indObj.Birthday
                 #print(f"{birthday} > {marriedDate} is {birthday > marriedDate} ")
                 if birthday < marriedDate:
-                    error_list.append(f"ERROR: FAMILY: US08: {indObj.indID}: born {indObj.Birthday} before marriage on {marriedDate}")
+                    error_list.append(f"ANOMALY: FAMILY: US08: {indObj.indID}: born {indObj.Birthday} before marriage on {marriedDate}")
                 if birthday > divorcedDate:
                     if checkDiffInMonths(birthday,divorcedDate) > 9:
-                        error_list.append(f"ERROR: FAMILY: US08: {indObj.indID}: born {indObj.Birthday} after divorce on {marriedDate}")
+                        error_list.append(f"ANOMALY: FAMILY: US08: {indObj.indID}: born {indObj.Birthday} after divorce on {marriedDate}")
                 '''
                 elif birthday < divorcedDate and checkDiffInMonths(birthday,divorcedDate) < 9 :
-                    error_list.append(f"ERROR: FAMILY: US08: {indObj.indID}: born {indObj.Birthday} after divorce on {marriedDate}")
+                    error_list.append(f"ANOMALY: FAMILY: US08: {indObj.indID}: born {indObj.Birthday} after divorce on {marriedDate}")
                 '''
     return error_list
     
@@ -55,7 +54,7 @@ def us08_birth_b4_marr_parents(file):
 
 
 def user_story08_main():
-    list_errors =us08_birth_b4_marr_parents("us08testdata.ged")
+    list_errors =user_story08("us08testdata.ged")
     for eacherror in list_errors:
         print(eacherror)
 
