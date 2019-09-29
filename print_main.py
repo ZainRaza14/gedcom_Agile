@@ -33,6 +33,7 @@ def printTables(fileName):
     #print(famDict)
     print('\n\nFamily Information----------------------->\n')
     print (famTable)
+    return indTable,famTable
 
 if __name__ == "__main__":
-    printTables("neilfam.ged")
+    printTables("mytestfile.ged")
