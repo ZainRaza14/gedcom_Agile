@@ -2,10 +2,7 @@ from ParserModule import parse_main
 from utils import checkDiffInDays
 from print_main import printTables
 from datetime import datetime
-'''
-US 15
-There should be fewer than 15 siblings in a family
-'''
+
 def us15_fewer_than_15_siblings(file):
 
     indDict,famDict = parse_main(file)
@@ -25,5 +22,3 @@ def user_story15_main():
 
 if __name__ == "__main__":
     user_story15_main()
-    
-    
