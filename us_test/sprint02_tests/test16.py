@@ -9,8 +9,7 @@ class UserStory16Test(unittest.TestCase):
        print(error_list)
        self.assertEqual(error_list,['ERROR: FAMILY: US16: Individual I29 Name: Robbie /Jack/ not matched with family first name: Smith'])
        print("working")
-        
-        
+     
 if __name__ == '__main__':
     # note: there is no main(). Only test cases here
     unittest.main(exit=False, verbosity=2)     
