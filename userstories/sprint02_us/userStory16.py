@@ -7,7 +7,7 @@ US16	Male last names	All male members of a family should have the same last name
 
 def us16_male_last_names(file):
     error_list = list()
-    printTables(file)
+    #printTables(file)
     '''
     loop over family records
     for each family
