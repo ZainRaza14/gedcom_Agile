@@ -12,9 +12,7 @@ class UserStory09Test(unittest.TestCase):
            'ERROR: FAMILY: US09 : Individual I19 Name: Dick adom /Smith/ born 9 months after death of father I01 Joe /Smith/',
            'ERROR: FAMILY: US09 : Individual I26 Name: Jane bdom /Smith/ born 9 months after death of father I01 Joe /Smith/'
            ])
-
-        
-        
+    
 if __name__ == '__main__':
     # note: there is no main(). Only test cases here
     unittest.main(exit=False, verbosity=2)     
