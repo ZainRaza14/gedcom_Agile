@@ -10,6 +10,6 @@ class UserStory13Test(unittest.TestCase):
                                     'ERROR: FAMILY: US13: The spacing between sibling1:I27 and sibling2:I19 of family:F23 is not valid',
                                     'ERROR: FAMILY: US13: The spacing between sibling1:I27 and sibling2:I26 of family:F23 is not valid'])        
 
-    if __name__ == '__main__':
+if __name__ == '__main__':
     # note: there is no main(). Only test cases here
     unittest.main(exit=False, verbosity=2)     
