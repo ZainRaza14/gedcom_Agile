@@ -9,3 +9,4 @@ install:
 script:
   - python -m unittest sprint1_alltests.py
   - python -m unittest sprint2_alltests.py
+  - python -m unittest sprint3_alltests.py
