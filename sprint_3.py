@@ -1,3 +1,8 @@
+#sprint3 
+from userstories.sprint03_us.userStory18 import us18_sibilings_no_marriage
+from userstories.sprint03_us.userStory21 import us21_husb_male_wife_female
+
+
 #sprint2
 from userstories.sprint02_us.userStory12 import us12_parents_not_too_old
 from userstories.sprint02_us.userStory13 import us13_siblings_spacing
@@ -46,6 +51,11 @@ def sprint_2_user_stories():
     error_list.extend(us15_fewer_than_15_siblings(master_file_name))
     error_list.extend(us16_male_last_names(master_file_name))
 
+
+    #sprint3
+    error_list.extend(us18_sibilings_no_marriage(master_file_name))
+    error_list.extend(us21_husb_male_wife_female(master_file_name))
+    
     for each_error in error_list:
         print(each_error)
     
