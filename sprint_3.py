@@ -60,6 +60,8 @@ def sprint_2_user_stories():
     error_list.extend(us19_no_1st_cousin_marr(master_file_name))
     error_list.extend(us21_husb_male_wife_female(master_file_name))
     error_list.extend(us22_unique_IDs(master_file_name))
+    error_list.extend(us20_aunts_and_uncles(master_file_name))
+    
     
     for each_error in error_list:
         print(each_error)
