@@ -9,7 +9,7 @@ from print_main import printTables
 def us13_siblings_spacing(file):
     error_list = list()
     #printTables(file)
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     
     for famID in famDict:
         birthdays=[];

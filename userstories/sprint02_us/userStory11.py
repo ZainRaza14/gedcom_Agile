@@ -9,7 +9,7 @@ from print_main import printTables
 def us11_no_bigamy(file):
     error_list = list()
     #printTables(file)
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     totalSpouses = []
     numSpouse = 0
     

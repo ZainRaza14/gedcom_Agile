@@ -8,8 +8,8 @@ US21 Husband in family should be male and wife in family should be female
 def us21_husb_male_wife_female(file):
     error_list = list()
     printTables(file)
-    indDict,famDict = parse_main(file)
-
+    indDict,famDict,errorList = parse_main(file)
+    
     for key,familyData in famDict.items():
         husband_gender = indDict[familyData.Husband].Sex
         husband_name = indDict[familyData.Husband].Name

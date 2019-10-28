@@ -11,7 +11,7 @@ Children should be born after marriage of parents (and not more than 9 months af
 def us08_birth_b4_marr_parents(file):
     error_list = list()
     #printTables(file)
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     
     for famId, famObject in famDict.items():
         marriedDate= famObject.Marriage

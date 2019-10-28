@@ -2,7 +2,7 @@ from ParserModule import parse_main
 from prettytable import PrettyTable
 
 def printTables(fileName):
-    indDict, famDict = parse_main(fileName);
+    indDict, famDict,errorList = parse_main(fileName);
     indTable = PrettyTable()
     famTable = PrettyTable()
     

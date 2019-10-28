@@ -7,7 +7,7 @@ US18 Siblings should not marry one another
 def us18_sibilings_no_marriage(file):
     error_list = list()
     printTables(file)
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     '''
     loop over family records
     a) for each of the family record, get all the children 

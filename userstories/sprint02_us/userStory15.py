@@ -5,7 +5,7 @@ from datetime import datetime
 
 def us15_fewer_than_15_siblings(file):
 
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     error_list = list()
     for famID in famDict:
 

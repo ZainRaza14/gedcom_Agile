@@ -8,7 +8,7 @@ from print_main import printTables
 def us03_birth_b4_death(file):
     error_list = list()
     #printTables(file)
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     
     for iD in indDict:
         an_Indi = indDict[iD]

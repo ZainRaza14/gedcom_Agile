@@ -1,6 +1,9 @@
 #sprint3 
+
 from userstories.sprint03_us.userStory18 import us18_sibilings_no_marriage
+from userstories.sprint03_us.userStory19 import us19_no_1st_cousin_marr
 from userstories.sprint03_us.userStory21 import us21_husb_male_wife_female
+from userstories.sprint03_us.userStory22 import us22_unique_IDs
 
 
 #sprint2
@@ -27,7 +30,7 @@ from userstories.sprint01_us.userStory05 import us05_marr_b4_death
 from print_main import printTables
 
 def sprint_2_user_stories():
-    master_file_name="gedfilestest/sprint02-testdata_2_CHECK.ged"
+    master_file_name="gedfilestest/sprint03-testdata.ged"
     indTable,famTable= printTables(master_file_name)
     error_list = []
     
@@ -54,7 +57,9 @@ def sprint_2_user_stories():
 
     #sprint3
     error_list.extend(us18_sibilings_no_marriage(master_file_name))
+    error_list.extend(us19_no_1st_cousin_marr(master_file_name))
     error_list.extend(us21_husb_male_wife_female(master_file_name))
+    error_list.extend(us22_unique_IDs(master_file_name))
     
     for each_error in error_list:
         print(each_error)
