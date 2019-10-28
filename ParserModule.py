@@ -53,6 +53,7 @@ def parse_main(fileName):
     myFile = open(fileName)
     indDict = OrderedDict()
     famDict = OrderedDict()
+    errorList=set()
     myFlag = ''
     myFlag1 = ''
     myFlag2 = ''
@@ -69,9 +70,15 @@ def parse_main(fileName):
                     if myLevel == '0':
                         myFlag = myTag
                         if myArg1 == 'INDI':
-                            indDict[myFlag] = indClass(myTag)
+                            if  myTag in indDict:
+                                errorList.add(myTag)
+                            else:
+                                indDict[myFlag] = indClass(myTag)
                         elif myArg1 == 'FAM':
-                            famDict[myFlag] = famClass(myTag)
+                            if  myTag in famDict:
+                                errorList.add(myTag)
+                            else:
+                                famDict[myFlag] = famClass(myTag)
                 if myLevel == '1':
                     #print(myTag)
                     if (myTag == 'NAME'):
@@ -124,5 +131,5 @@ def parse_main(fileName):
         addAlives(indDict)
     finally:
         myFile.close()
-    return indDict, famDict
+    return indDict, famDict,errorList
 

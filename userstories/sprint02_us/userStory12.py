@@ -6,7 +6,7 @@ from print_main import printTables
 def us12_parents_not_too_old(file):
     error_list = list()
     #printTables(file)
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     
     for famID in famDict:
         if famDict[famID].multChild !=[]:

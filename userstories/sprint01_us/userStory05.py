@@ -1,7 +1,8 @@
 from ParserModule import parse_main
 
 def us05_marr_b4_death(file):
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
+    
     error_list = list()
     for famID in famDict:
         if famDict[famID].Marriage != "NA" and famDict[famID].Marriage != "":

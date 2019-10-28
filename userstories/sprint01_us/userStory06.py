@@ -6,7 +6,7 @@ from print_main import printTables
 def us06_divo_b4_death(file):
     error_list = list()
     #printTables(file)
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     
     for famID in famDict:
         

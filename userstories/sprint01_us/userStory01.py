@@ -2,7 +2,7 @@ from ParserModule import parse_main
 from utils import compare_date_to_todays_date
 
 def us01_dates_b4_curr_date(file):
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     error_list = list()
     for iD in indDict:
         if indDict[iD].Birthday != "NA" and indDict[iD].Birthday != "":

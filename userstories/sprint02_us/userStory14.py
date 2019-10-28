@@ -9,7 +9,7 @@ from print_main import printTables
 def us14_multiple_births(file):
     error_list = list()
     #printTables(file)
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     
     totalSpouses = []
     

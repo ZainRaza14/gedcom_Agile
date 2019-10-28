@@ -19,7 +19,7 @@ def us16_male_last_names(file):
               b) if does not match 
                   if yes add to error_list
     '''
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     for key,familyData in famDict.items():
         husband_first_name = get_first_name(indDict[familyData.Husband].Name)
         for eachchild in familyData.multChild:

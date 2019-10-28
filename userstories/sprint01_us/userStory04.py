@@ -10,7 +10,8 @@ Marriage should occur before divorce of spouses, and divorce can only occur afte
 def us04_marr_b4_divo(file):
     error_list = list()
     #printTables(file)
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
+    
     for key,familyData in famDict.items():
         #print(f"key is {key} and data is {familyData}")
         if familyData.Divorce < familyData.Marriage:

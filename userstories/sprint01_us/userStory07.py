@@ -8,7 +8,7 @@ Birth => Individual
 Death => Individual
 '''
 def us07_less_than_150years(file):
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     error_list = list()
     for iD in indDict:
         if indDict[iD].Age > 150:

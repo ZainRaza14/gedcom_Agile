@@ -3,7 +3,7 @@ import unittest
 
 class UserStory18Test(unittest.TestCase):
 
-    def test_us_18(self):
+    def test_us18(self):
        error_list = us18_sibilings_no_marriage("gedfilestest/sprint03_ged/us18testdata.ged")
        print(error_list)
        self.assertEqual(error_list,['ERROR: FAMILY: US18 : Sibiings Id:I26,name:Jane /Smith/ and  Id:I19,name:Dick /Smith/ are married'])

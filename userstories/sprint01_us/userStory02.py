@@ -8,7 +8,7 @@ Birth=> Individual
 Marriage => Family
 '''
 def us02_birth_b4_marr(file):
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     error_list = list()
     for famID in famDict :
         if famDict[famID].Marriage != "NA" and famDict[famID].Marriage != "":

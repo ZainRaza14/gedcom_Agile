@@ -3,7 +3,7 @@ import unittest
 
 class UserStory21Test(unittest.TestCase):
 
-    def test_us_21(self):
+    def test_us21(self):
        error_list = us21_husb_male_wife_female("gedfilestest/sprint03_ged/us21testdata.ged")
        print(error_list)
        self.assertEqual(error_list,['ERROR: FAMILY: US21 : Husband Id:I01,name:Joe /Smith/ is not male', 

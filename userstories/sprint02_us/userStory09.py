@@ -9,7 +9,7 @@ Child should be born before death of mother and before 9 months after death of f
 def us09_birth_b4_parents_death(file):
     error_list = list()
     #printTables(file)
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     '''
     loop over family records
     for each family

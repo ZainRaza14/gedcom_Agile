@@ -11,7 +11,7 @@ def getAgeAt(born, given):
     return given.year - born.year - ((given.month, given.day) < (born.month, born.day))
 
 def us10_marr_after_14(file):
-    indDict,famDict = parse_main(file)
+    indDict,famDict,errorList = parse_main(file)
     error_list = list()
     
     for famID in famDict:
