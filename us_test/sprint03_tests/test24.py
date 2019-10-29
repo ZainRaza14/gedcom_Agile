@@ -2,7 +2,7 @@ from userstories.sprint03_us.userStory24 import us24_unique_fam_by_spouses
 
 import unittest 
 
-class UserStory20Test(unittest.TestCase):
+class UserStory24Test(unittest.TestCase):
 
     def test_us24(self):
        error_list = us24_unique_fam_by_spouses("gedfilestest/sprint03_ged/us24testdata.ged")
