@@ -9,7 +9,7 @@ class UserStory24Test(unittest.TestCase):
        print(error_list)
        self.assertEqual(error_list,["ERROR: US24 : F23 husband, wife names or marriage date is occurring twice in Gedcom ", 
                                     "ERROR: US24 : F23 husband, wife names or marriage date is occurring twice in Gedcom ", 
-                                    "ERROR: US24 : F24 husband, wife names or marriage date is occurring twice in Gedcom ",
+                                    "ERROR: US24 : F23 husband, wife names or marriage date is occurring twice in Gedcom ",
                                     "ERROR: US24 : F24 husband, wife names or marriage date is occurring twice in Gedcom ",
                                     "ERROR: US24 : F24 husband, wife names or marriage date is occurring twice in Gedcom ",
                                     "ERROR: US24 : F24 husband, wife names or marriage date is occurring twice in Gedcom "])
