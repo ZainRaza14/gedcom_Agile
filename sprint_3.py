@@ -6,6 +6,8 @@ from userstories.sprint03_us.userStory21 import us21_husb_male_wife_female
 from userstories.sprint03_us.userStory22 import us22_unique_IDs
 from userstories.sprint03_us.userStory20 import us24_unique_fam_by_spouses
 from userstories.sprint03_us.userStory24 import us20_aunts_and_uncles
+from userstories.sprint03_us.userStory17 import us17_no_marr_2_children
+from userstories.sprint03_us.userStory23 import us23_unique_name_and_birth
 
 #sprint2
 from userstories.sprint02_us.userStory12 import us12_parents_not_too_old
@@ -63,6 +65,10 @@ def sprint_2_user_stories():
     error_list.extend(us22_unique_IDs(master_file_name))
     error_list.extend(us20_aunts_and_uncles(master_file_name))
     error_list.extend(us24_unique_fam_by_spouses(master_file_name))
+    error_list.extend(us17_no_marr_2_children(master_file_name))
+    error_list.extend(us23_unique_name_and_birth(master_file_name))
+
+
     
     for each_error in error_list:
         print(each_error)
