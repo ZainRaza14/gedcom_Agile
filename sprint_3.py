@@ -4,8 +4,8 @@ from userstories.sprint03_us.userStory18 import us18_sibilings_no_marriage
 from userstories.sprint03_us.userStory19 import us19_no_1st_cousin_marr
 from userstories.sprint03_us.userStory21 import us21_husb_male_wife_female
 from userstories.sprint03_us.userStory22 import us22_unique_IDs
-from userstories.sprint03_us.userStory20 import us24_unique_fam_by_spouses
-from userstories.sprint03_us.userStory24 import us20_aunts_and_uncles
+from userstories.sprint03_us.userStory20 import us20_aunts_and_uncles
+from userstories.sprint03_us.userStory24 import us24_unique_fam_by_spouses
 from userstories.sprint03_us.userStory17 import us17_no_marr_2_children
 from userstories.sprint03_us.userStory23 import us23_unique_name_and_birth
 
@@ -32,7 +32,7 @@ from userstories.sprint01_us.userStory05 import us05_marr_b4_death
 
 from print_main import printTables
 
-def sprint_2_user_stories():
+def sprint_3_user_stories():
     master_file_name="gedfilestest/sprint03-testdata.ged"
     indTable,famTable= printTables(master_file_name)
     error_list = []
@@ -59,21 +59,23 @@ def sprint_2_user_stories():
 
 
     #sprint3
+    error_list.extend(us17_no_marr_2_children(master_file_name))
     error_list.extend(us18_sibilings_no_marriage(master_file_name))
     error_list.extend(us19_no_1st_cousin_marr(master_file_name))
+    error_list.extend(us20_aunts_and_uncles(master_file_name))
     error_list.extend(us21_husb_male_wife_female(master_file_name))
     error_list.extend(us22_unique_IDs(master_file_name))
-    error_list.extend(us20_aunts_and_uncles(master_file_name))
-    error_list.extend(us24_unique_fam_by_spouses(master_file_name))
-    error_list.extend(us17_no_marr_2_children(master_file_name))
     error_list.extend(us23_unique_name_and_birth(master_file_name))
+    error_list.extend(us24_unique_fam_by_spouses(master_file_name))
+    
+   
 
 
     
     for each_error in error_list:
         print(each_error)
     
-    with open('sprint2output.txt','w') as file:
+    with open('sprint3output.txt','w') as file:
         file.write('\n\nIndividuals Information----------------------->\n')
         file.write(indTable.get_string())
         file.write("\n")
@@ -85,4 +87,4 @@ def sprint_2_user_stories():
         
         
 if __name__ == "__main__":
-    sprint_2_user_stories()
+    sprint_3_user_stories()

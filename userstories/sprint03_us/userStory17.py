@@ -8,25 +8,35 @@ def us17_no_marr_2_children(file):
     indDict, famDict, errorList = parse_main(file)
     error_list = list()
     
+    spouseFam, spouseID, childMother, childFather = "", "", "", ""
+    
     for famID in famDict:
         totalChild = famDict[famID].multChild
         
         for child in totalChild:
             if indDict[child].Spouse:
-                spouseFam = indDict[child].Spouse
-                if indDict[child].Sex == 'M':
-                    spouseID = famDict[spouseFam].Wife
-                    childMother = famDict[famID].Wife
-                    if spouseID == childMother:
-                        error_string = f"ERROR: FAMILY: US17: {famDict[famID].famID} Parents should not marry their descendants"
-                        error_list.append(error_string)
-                                    
+                if indDict[child].Spouse != 'NA':
+                    spouseFam = indDict[child].Spouse
                 else:
-                    spouseID = famDict[spouseFam].Husband
-                    childFather = famDict[famID].Husband
-                    if spouseID == childFather:
-                        error_string = f"ERROR: FAMILY: US17: {famDict[famID].famID} Parents should not marry their descendants"
-                        error_list.append(error_string)
+                    continue
+                if indDict[child].Sex != 'NA':
+                    if indDict[child].Sex == 'M':
+                        if famDict[spouseFam].Wife != 'NA':
+                            spouseID = famDict[spouseFam].Wife
+                        if famDict[famID].Wife != 'NA':
+                            childMother = famDict[famID].Wife
+                        if spouseID == childMother:
+                            error_string = f"ERROR: FAMILY: US17: {famDict[famID].famID} Parents should not marry their descendants"
+                            error_list.append(error_string)
+                                    
+                    else:
+                        if famDict[spouseFam].Husband != 'NA':
+                            spouseID = famDict[spouseFam].Husband
+                        if famDict[famID].Husband != 'NA':
+                            childFather = famDict[famID].Husband
+                        if spouseID == childFather:
+                            error_string = f"ERROR: FAMILY: US17: {famDict[famID].famID} Parents should not marry their descendants"
+                            error_list.append(error_string)
                 
     return error_list
 

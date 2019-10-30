@@ -12,6 +12,8 @@ def us20_aunts_and_uncles(file):
     
     fFlag = False
     
+    spouseFam, spouseId, chilFather, chilMother, chilFatFam, chilMotFam, spouseParentFam = "" , "" ,"" ,"", "", "", ""
+    
     for fam in famDict:
         if(famDict[fam].multChild):
             for chil in famDict[fam].multChild:
@@ -25,26 +27,44 @@ def us20_aunts_and_uncles(file):
                             fFlag = True
                         
                         if mFlag == True:
-                            spouseFam = indDict[chil].Spouse
-                            spouseId = famDict[spouseFam].Wife
-                            chilFather = famDict[fam].Husband
-                            chilMother = famDict[fam].Wife
-                            chilFatFam = indDict[chilFather].Child
-                            chilMotFam = indDict[chilMother].Child
-                            spouseParentFam = indDict[spouseId].Child
+                            if indDict[chil].Spouse != 'NA':
+                                spouseFam = indDict[chil].Spouse
+                            else:
+                                continue
+                            if famDict[spouseFam].Wife != 'NA' and famDict[spouseFam].Wife != '':
+                                spouseId = famDict[spouseFam].Wife
+                            if famDict[fam].Husband != 'NA':
+                                chilFather = famDict[fam].Husband
+                            if famDict[fam].Wife != 'NA':
+                                chilMother = famDict[fam].Wife
+                            if indDict[chilFather].Child != 'NA':
+                                chilFatFam = indDict[chilFather].Child
+                            if indDict[chilMother].Child != 'NA':
+                                chilMotFam = indDict[chilMother].Child
+                            if indDict[spouseId].Child != 'NA':
+                                spouseParentFam = indDict[spouseId].Child
                             if chilFatFam == spouseParentFam or chilMotFam == spouseParentFam:
                                 error_string = f"ERROR: US20 : {spouseId} is married to their nephew or niece"
                                 error_list.append(error_string)
                             
                             
                         if fFlag == True:
-                            spouseFam = indDict[chil].Spouse
-                            spouseId = famDict[spouseFam].Husband
-                            chilFather = famDict[fam].Husband
-                            chilMother = famDict[fam].Wife
-                            chilFatFam = indDict[chilFather].Child
-                            chilMotFam = indDict[chilMother].Child
-                            spouseParentFam = indDict[spouseId].Child
+                            if indDict[chil].Spouse != 'NA':
+                                spouseFam = indDict[chil].Spouse
+                            else:
+                                continue
+                            if famDict[spouseFam].Husband != 'NA':
+                                spouseId = famDict[spouseFam].Husband
+                            if famDict[fam].Husband != 'NA':
+                                chilFather = famDict[fam].Husband
+                            if famDict[fam].Wife != 'NA':    
+                                chilMother = famDict[fam].Wife
+                            if indDict[chilFather].Child != 'NA':
+                                chilFatFam = indDict[chilFather].Child
+                            if indDict[chilMother].Child != 'NA':
+                                chilMotFam = indDict[chilMother].Child
+                            if indDict[spouseId].Child != 'NA':
+                                spouseParentFam = indDict[spouseId].Child
                             if chilFatFam == spouseParentFam or chilMotFam == spouseParentFam:
                                 error_string = f"ERROR: US20 : {spouseId} is married to their nephew or niece"
                                 error_list.append(error_string)
