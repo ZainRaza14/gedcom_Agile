@@ -13,7 +13,7 @@ class UserStory22Test(unittest.TestCase):
     def test_us22(self):
        error_list = us22_unique_IDs("gedfilestest/sprint03_ged/us22testdata.ged")
        print(error_list)
-       self.assertEqual(error_list,["ERROR: US22 : The ids:['I01', 'F23'] are repeated"])
+       self.assertEqual(error_list,["ERROR: US22 : The ids:['F23', 'I01'] are repeated"])
      
 if __name__ == '__main__':
     # note: there is no main(). Only test cases here

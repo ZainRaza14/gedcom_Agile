@@ -11,7 +11,7 @@ from print_main import printTables
 
 
 def us19_no_1st_cousin_marr(file):
-    printTables(file)
+    #printTables(file)
     indDict,famDict,errorList = parse_main(file)
     error_list=list()
     for famID in famDict:

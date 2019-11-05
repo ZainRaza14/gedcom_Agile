@@ -10,7 +10,7 @@ from print_main import printTables
 
 
 def us22_unique_IDs(file):
-    printTables(file)
+    #printTables(file)
     indDict,famDict,errorList = parse_main(file)
     error_list=list()
     errorList=list(errorList)
