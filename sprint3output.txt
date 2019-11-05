@@ -64,7 +64,7 @@ Individuals Information----------------------->
 | I86 |    bab /Zaa/     |   M    | 1960-07-15 |  41 | False | 2001-12-31 |   NA  |  F43   |
 | I87 |    Babe /Zaa/    |   F    | 1960-09-23 |  40 | False | 2001-01-31 |   NA  |  F43   |
 | I88 |  Dickaaa /ZAA/   |   M    | 1987-02-13 |  32 |  True |     NA     |  F43  |  F44   |
-| I89 |    Zany /Zaa/    |   F    | 1988-11-02 |  30 |  True |     NA     |  F43  |  F44   |
+| I89 |    Zany /Zaa/    |   F    | 1988-11-02 |  31 |  True |     NA     |  F43  |  F44   |
 | I90 |   Robead /Zaa/   |   F    | 1989-06-02 |  30 |  True |     NA     |  F43  |   NA   |
 | I91 |   Clake /Zaa/    |   F    | 1990-06-02 |  29 |  True |     NA     |  F43  |   NA   |
 | I92 |  Clappy /Slick/  |   M    | 1960-07-15 |  59 |  True |     NA     |   NA  |  F45   |
