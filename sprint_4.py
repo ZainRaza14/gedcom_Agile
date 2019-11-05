@@ -1,6 +1,9 @@
 #sprint4
+from userstories.sprint04_us.userStory27 import us27_individual_ages
 from userstories.sprint04_us.userStory28 import us28_order_sibilings_by_age
 from userstories.sprint04_us.userStory30 import us30_list_living_married
+from userstories.sprint04_us.userStory36 import us36_list_recent_deaths
+
 
 
 #sprint3 
@@ -37,8 +40,8 @@ from userstories.sprint01_us.userStory05 import us05_marr_b4_death
 
 from print_main import printTables
 
-def sprint_3_user_stories():
-    master_file_name="gedfilestest/sprint03-testdata.ged"
+def sprint_4_user_stories():
+    master_file_name="gedfilestest/sprint04-testdata.ged"
     indTable,famTable= printTables(master_file_name)
     error_list = []
     
@@ -73,6 +76,14 @@ def sprint_3_user_stories():
     error_list.extend(us23_unique_name_and_birth(master_file_name))
     error_list.extend(us24_unique_fam_by_spouses(master_file_name))
     
+    
+    #sprint4
+    error_list.extend(us27_individual_ages(master_file_name))
+    error_list.extend(us28_order_sibilings_by_age(master_file_name))
+    error_list.extend(us30_list_living_married(master_file_name))
+    error_list.extend(us36_list_recent_deaths(master_file_name))
+    
+    
    
 
 
@@ -80,7 +91,7 @@ def sprint_3_user_stories():
     for each_error in error_list:
         print(each_error)
     
-    with open('sprint3output.txt','w') as file:
+    with open('sprint4output.txt','w') as file:
         file.write('\n\nIndividuals Information----------------------->\n')
         file.write(indTable.get_string())
         file.write("\n")
@@ -92,4 +103,4 @@ def sprint_3_user_stories():
         
         
 if __name__ == "__main__":
-    sprint_3_user_stories()
+    sprint_4_user_stories()

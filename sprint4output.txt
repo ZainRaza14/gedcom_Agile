@@ -1,0 +1,274 @@
+
+
+Individuals Information----------------------->
++-----+------------------+--------+------------+-----+-------+------------+-------+--------+
+|  ID |       Name       | Gender |  Birthday  | Age | Alive |   Death    | Child | Spouse |
++-----+------------------+--------+------------+-----+-------+------------+-------+--------+
+| I01 |   Joe /Smith/    |   M    | 1960-07-15 |  -1 | False | 1959-12-31 |   NA  |  F23   |
+| I07 | Jennifer /Smith/ |   F    | 1960-09-23 |  38 | False | 1998-09-23 |   NA  |   NA   |
+| I19 |   Dick /Smith/   |   M    | 1981-02-13 |  38 |  True |     NA     |  F23  |   NA   |
+| I26 |   Jane /Smith/   |   F    | 1983-06-02 |  36 |  True |     NA     |  F23  |   NA   |
+| I30 |       Joel       |   M    | 2021-06-02 |  0  | False | 2021-12-31 |   NA  |  F24   |
+| I31 |      Jimmy       |   F    | 2009-06-02 |  10 |  True |     NA     |   NA  |  F24   |
+| I32 |       Jane       |   M    | 2018-06-02 |  1  |  True |     NA     |   NA  |  F25   |
+| I33 |      Wooly       |   F    | 2019-06-02 |  0  |  True |     NA     |   NA  |  F25   |
+| I34 |      Winga       |   F    | 1750-06-02 | 263 | False | 2013-12-31 |  F25  |   NA   |
+| I35 |      Chinga      |   F    | 1850-06-02 | 169 |  True |     NA     |  F25  |   NA   |
+| I36 |      Shini       |   M    | 2019-06-02 |  0  |  True |     NA     |   NA  |  F26   |
+| I37 |     Comango      |   F    | 2019-06-02 |  0  |  True |     NA     |   NA  |  F26   |
+| I41 |    Kivi Kava     |   M    | 1960-07-15 |  52 | False | 2012-12-31 |   NA  |  F30   |
+| I42 |    Shimi Kava    |   F    | 1960-09-23 |  51 | False | 2011-12-31 |   NA  |  F30   |
+| I43 |    Hari Kava     |   M    | 2014-02-13 |  5  |  True |     NA     |  F30  |   NA   |
+| I44 |   Harini Kava    |   F    | 2015-06-02 |  4  |  True |     NA     |  F30  |   NA   |
+| I45 |    Shimi Nava    |   M    | 2015-02-13 |  4  |  True |     NA     |   NA  |  F31   |
+| I46 |  Shimiana Nava   |   F    | 2015-06-02 |  4  |  True |     NA     |   NA  |  F31   |
+| I47 |    Nimi Cava     |   M    | 1990-02-13 |  29 |  True |     NA     |   NA  |  F33   |
+| I48 |    Nami Cava     |   F    | 1991-06-02 |  28 |  True |     NA     |   NA  |  F32   |
+| I49 |     Omi Cava     |   F    | 1992-02-13 |  27 |  True |     NA     |   NA  |  F33   |
+| I50 |    Zimi Hava     |   M    | 1993-06-02 |  26 |  True |     NA     |   NA  |  F35   |
+| I51 |    Zomi Hava     |   F    | 1994-02-13 |  21 | False | 2015-02-13 |   NA  |  F34   |
+| I52 |    Shigi Hava    |   F    | 1995-06-02 |  24 |  True |     NA     |   NA  |  F35   |
+| I53 |    Qiti Java     |   M    | 1996-02-13 |  23 |  True |     NA     |   NA  |  F37   |
+| I54 |    Qota Java     |   F    | 1997-06-02 |  22 |  True |     NA     |   NA  |  F36   |
+| I55 |    Rota Java     |   F    | 1998-06-02 |  21 |  True |     NA     |   NA  |  F37   |
+| I56 |    Tota Kava     |   M    | 1810-06-02 | 209 |  True |     NA     |   NA  |  F38   |
+| I57 |    Toti Kava     |   F    | 1811-06-02 | 208 |  True |     NA     |   NA  |  F38   |
+| I58 |    Iova Kava     |   M    | 1934-06-02 |  85 |  True |     NA     |  F38  |   NA   |
+| I59 |    Pova Kava     |   F    | 1935-06-02 |  84 |  True |     NA     |  F38  |   NA   |
+| I60 |    Tota Kava     |   M    | 1989-06-02 |  30 |  True |     NA     |   NA  |  F39   |
+| I61 |    Toti Kava     |   F    | 1990-06-02 |  29 |  True |     NA     |   NA  |  F39   |
+| I62 |    Iova Kava     |   M    | 2012-06-02 |  7  |  True |     NA     |  F39  |   NA   |
+| I63 |    Pova Kava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F39  |   NA   |
+| I64 |    Rova Lava     |   F    | 1970-08-02 |  49 |  True |     NA     |  F40  |   NA   |
+| I65 |    Chiva Lava    |   F    | 1971-08-02 |  48 |  True |     NA     |  F40  |   NA   |
+| I66 |    Dava Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I67 |   Chigta Lava    |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I68 |   Chugti Lava    |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I69 |    Tuti Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I70 |    Fruti Lava    |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I71 |    Frota Lava    |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I72 |    Kota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I73 |    Lota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I74 |    Zota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I75 |    Xota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I76 |    Cota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I77 |    Vota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I78 |    Bota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I79 |    Nota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I80 |    Mota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I81 |    Sota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I82 |    Gota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I83 |    Ab /Clyne/    |   M    | 1960-07-15 |  59 |  True |     NA     |   NA  |  F41   |
+| I84 |   Abee /Clyne/   |   F    | 1960-09-23 |  59 |  True |     NA     |   NA  |  F41   |
+| I85 |   Aber /Clyne/   |   F    | 1981-02-13 |  38 |  True |     NA     |  F41  |  F42   |
+| I86 |    bab /Zaa/     |   M    | 1960-07-15 |  41 | False | 2001-12-31 |   NA  |  F43   |
+| I87 |    Babe /Zaa/    |   F    | 1960-09-23 |  40 | False | 2001-01-31 |   NA  |  F43   |
+| I88 |  Dickaaa /ZAA/   |   M    | 1987-02-13 |  32 |  True |     NA     |  F43  |  F44   |
+| I89 |    Zany /Zaa/    |   F    | 1988-11-02 |  31 |  True |     NA     |  F43  |  F44   |
+| I90 |   Robead /Zaa/   |   F    | 1989-06-02 |  30 |  True |     NA     |  F43  |   NA   |
+| I91 |   Clake /Zaa/    |   F    | 1990-06-02 |  29 |  True |     NA     |  F43  |   NA   |
+| I92 |  Clappy /Slick/  |   M    | 1960-07-15 |  59 |  True |     NA     |   NA  |  F45   |
+| I93 |  Clapsy /Slick/  |   F    | 1960-09-23 |  59 |  True |     NA     |   NA  |  F45   |
+| I94 |   Gilli Slick    |   F    | 1980-09-23 |  39 |  True |     NA     |  F45  |  F46   |
+| I95 |   Chilli Slick   |   M    | 1981-09-24 |  38 |  True |     NA     |  F45  |  F47   |
+| I96 |   Choli Slick    |   F    | 1981-09-29 |  38 |  True |     NA     |   NA  |  F47   |
+| I97 |   Chimmi Slick   |   M    | 2002-09-29 |  17 |  True |     NA     |  F47  |  F46   |
+| I98 |  Zimone /Zika/   |   M    | 1960-07-15 |  59 | False | 2019-11-05 |   NA  |   NA   |
+| I99 |  Zimona /Zika/   |   M    | 1960-07-15 |  59 | False | 2019-11-05 |   NA  |   NA   |
++-----+------------------+--------+------------+-----+-------+------------+-------+--------+
+
+
+Family Information----------------------->
++-----+------------+------------+------------+----------------+---------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|  ID |  Married   |  Divorced  | Husband ID |  Husband Name  | Wife ID |    Wife Name     |                                                                                                                    Children                                                                                                                    |
++-----+------------+------------+------------+----------------+---------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| F23 | 1980-02-14 | 1999-02-14 |    I01     |  Joe /Smith/   |   I07   | Jennifer /Smith/ |                                                                                                                 ['I19', 'I26']                                                                                                                 |
+| F24 | 2022-02-14 | 2023-02-14 |    I30     |      Joel      |   I31   |      Jimmy       |                                                                                                                       []                                                                                                                       |
+| F25 | 2017-02-14 |     NA     |    I32     |      Jane      |   I33   |      Wooly       |                                                                                                                 ['I34', 'I35']                                                                                                                 |
+| F26 | 2018-02-14 | 2017-02-14 |    I36     |     Shini      |   I37   |     Comango      |                                                                                                                       []                                                                                                                       |
+| F30 | 1980-02-14 |     NA     |    I41     |   Kivi Kava    |   I42   |    Shimi Kava    |                                                                                                                 ['I43', 'I44']                                                                                                                 |
+| F31 | 2020-02-14 |     NA     |    I45     |   Shimi Nava   |   I46   |  Shimiana Nava   |                                                                                                                       []                                                                                                                       |
+| F32 | 2005-02-14 |     NA     |    I47     |   Nimi Cava    |   I48   |    Nami Cava     |                                                                                                                       []                                                                                                                       |
+| F33 | 2006-02-14 |     NA     |    I47     |   Nimi Cava    |   I49   |     Omi Cava     |                                                                                                                       []                                                                                                                       |
+| F34 | 2014-02-14 |     NA     |    I50     |   Zimi Hava    |   I51   |    Zomi Hava     |                                                                                                                       []                                                                                                                       |
+| F35 | 2015-02-11 |     NA     |    I50     |   Zimi Hava    |   I52   |    Shigi Hava    |                                                                                                                       []                                                                                                                       |
+| F36 | 2017-02-14 | 2018-02-14 |    I53     |   Qiti Java    |   I54   |    Qota Java     |                                                                                                                       []                                                                                                                       |
+| F37 | 2018-02-10 |     NA     |    I53     |   Qiti Java    |   I55   |    Rota Java     |                                                                                                                       []                                                                                                                       |
+| F38 | 1933-02-10 |     NA     |    I56     |   Tota Kava    |   I57   |    Toti Kava     |                                                                                                                 ['I58', 'I59']                                                                                                                 |
+| F39 | 1933-02-10 |     NA     |    I60     |   Tota Kava    |   I61   |    Toti Kava     |                                                                                                                 ['I62', 'I63']                                                                                                                 |
+| F40 | 1994-02-10 |     NA     |    I64     |   Rova Lava    |   I65   |    Chiva Lava    | ['I66', 'I67', 'I68', 'I69', 'I70', 'I71', 'I72', 'I73', 'I74', 'I75', 'I76', 'I77', 'I78', 'I79', 'I80', 'I81', 'I82', 'I66', 'I67', 'I68', 'I69', 'I70', 'I71', 'I72', 'I73', 'I74', 'I75', 'I76', 'I77', 'I78', 'I79', 'I80', 'I81', 'I82'] |
+| F41 | 1981-02-14 |     NA     |    I83     |   Ab /Clyne/   |   I84   |   Abee /Clyne/   |                                                                                                                    ['I85']                                                                                                                     |
+| F42 | 2001-02-14 |     NA     |    I83     |   Ab /Clyne/   |   I85   |   Aber /Clyne/   |                                                                                                                       []                                                                                                                       |
+| F43 | 1985-02-14 |     NA     |    I86     |   bab /Zaa/    |   I87   |    Babe /Zaa/    |                                                                                                          ['I88', 'I89', 'I90', 'I91']                                                                                                          |
+| F44 | 2016-06-02 |     NA     |    I88     | Dickaaa /ZAA/  |   I89   |    Zany /Zaa/    |                                                                                                                       []                                                                                                                       |
+| F45 | 1980-02-14 |     NA     |    I92     | Clappy /Slick/ |   I93   |  Clapsy /Slick/  |                                                                                                                 ['I94', 'I95']                                                                                                                 |
+| F46 | 2018-02-14 |     NA     |    I97     |  Chimmi Slick  |   I94   |   Gilli Slick    |                                                                                                                       []                                                                                                                       |
+| F47 | 2000-02-14 |     NA     |    I95     |  Chilli Slick  |   I96   |   Choli Slick    |                                                                                                                    ['I97']                                                                                                                     |
++-----+------------+------------+------------+----------------+---------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+ERROR: INDIVIDUAL: US01: I30: Birthday 2021-06-02 is after todays date
+ERROR: INDIVIDUAL: US01: I30: Death Date 2021-12-31 is after todays date
+ERROR: FAMILY: US01: F24: Marriage Date 2022-02-14  is after todays date
+ERROR: FAMILY: US01: F24: Divorce Date 2023-02-14  is after todays date
+ERROR: FAMILY: US01: F31: Marriage Date 2020-02-14  is after todays date
+ERROR: INDIVIDUAL: US02: I33: Birth Date OF Wife:2019-06-02 is after Marriage Date:2017-02-14
+ERROR: INDIVIDUAL: US02: I32: Birth Date OF Husband:2018-06-02 is after Marriage Date:2017-02-14
+ERROR: INDIVIDUAL: US02: I37: Birth Date OF Wife:2019-06-02 is after Marriage Date:2018-02-14
+ERROR: INDIVIDUAL: US02: I36: Birth Date OF Husband:2019-06-02 is after Marriage Date:2018-02-14
+ERROR: INDIVIDUAL: US02: I61: Birth Date OF Wife:1990-06-02 is after Marriage Date:1933-02-10
+ERROR: INDIVIDUAL: US02: I60: Birth Date OF Husband:1989-06-02 is after Marriage Date:1933-02-10
+ERROR: INDIVIDUAL: US03: I01 : Died 1959-12-31 before born 1960-07-15 
+ERROR: FAMILY: US04: F26: Divorced 2017-02-14 before married 2018-02-14 
+ERROR: FAMILY: US05: F23 : Marriage of husband:I01 occurs after death
+ERROR: FAMILY: US05: F24 : Marriage of husband:I30 occurs after death
+ERROR: FAMILY: US06: F23 : Divorce 1999-02-14 is after death 1959-12-31
+ERROR: FAMILY: US06: F23 : Divorce 1999-02-14 is after death 1998-09-23
+ERROR: INDIVIDUAL: US07: I34: Birth Date OF Deceased Individual:1750-06-02 and Death Date OF Deceased Individual:2013-12-31 Age is more than 150 years
+ERROR: INDIVIDUAL: US07: I35: Birth Date OF Individual:1850-06-02 Age is more than 150 years
+ERROR: INDIVIDUAL: US07: I56: Birth Date OF Individual:1810-06-02 Age is more than 150 years
+ERROR: INDIVIDUAL: US07: I57: Birth Date OF Individual:1811-06-02 Age is more than 150 years
+ANOMALY: FAMILY: US08: I34: born 1750-06-02 before marriage on 2017-02-14
+ANOMALY: FAMILY: US08: I35: born 1850-06-02 before marriage on 2017-02-14
+ANOMALY: FAMILY: US08: I85: born 1981-02-13 before marriage on 1981-02-14
+ERROR: FAMILY: US09 : Individual I19 Name: Dick /Smith/ born 9 months after death of father I01 Joe /Smith/
+ERROR: FAMILY: US09 : Individual I26 Name: Jane /Smith/ born 9 months after death of father I01 Joe /Smith/
+ERROR: FAMILY: US09 : Individual I43 Name: Hari Kava born after death of mother I42 Shimi Kava
+ERROR: FAMILY: US09 : Individual I43 Name: Hari Kava born 9 months after death of father I41 Kivi Kava
+ERROR: FAMILY: US09 : Individual I44 Name: Harini Kava born after death of mother I42 Shimi Kava
+ERROR: FAMILY: US09 : Individual I44 Name: Harini Kava born 9 months after death of father I41 Kivi Kava
+ERROR: US10 - The individual I30 was married before 14, this is not valid
+ERROR: US10 - The individual I31 was married before 14, this is not valid
+ERROR: US10 - The individual I32 was married before 14, this is not valid
+ERROR: US10 - The individual I33 was married before 14, this is not valid
+ERROR: US10 - The individual I36 was married before 14, this is not valid
+ERROR: US10 - The individual I37 was married before 14, this is not valid
+ERROR: US10 - The individual I45 was married before 14, this is not valid
+ERROR: US10 - The individual I46 was married before 14, this is not valid
+ERROR: US10 - The individual I48 was married before 14, this is not valid
+ERROR: US10 - The individual I49 was married before 14, this is not valid
+ERROR: US10 - The individual I60 was married before 14, this is not valid
+ERROR: US10 - The individual I61 was married before 14, this is not valid
+ERROR: INDIVIDUAL: US11: I47:Married2 F32 & F33
+ERROR: INDIVIDUAL: US11: I50:Married2 F34 & F35
+ERROR: INDIVIDUAL: US11: I53:Married2 F36 & F37
+ERROR: INDIVIDUAL: US11: I83:Married2 F41 & F42
+ERROR: INDIVIDUAL: US12: The age difference of child:I58 and mother:I57 is greater than or equal to 60
+ERROR: INDIVIDUAL: US12: The age difference of child:I58 and father:I56 is greater than or equal to 80
+ERROR: INDIVIDUAL: US12: The age difference of child:I59 and mother:I57 is greater than or equal to 60
+ERROR: INDIVIDUAL: US12: The age difference of child:I59 and father:I56 is greater than or equal to 80
+ERROR: FAMILY: US13: The spacing between sibling1:I62 and sibling2:I63 of family:F39 is not valid
+ERROR: FAMILY: US13: The spacing between sibling1:I89 and sibling2:I90 of family:F43 is not valid
+ERROR: FAMILY: US14 Family F40 has more than 5 siblings born at the same time
+ERROR: FAMILY: US15: Family has more than 15 siblings F40
+ERROR: FAMILY: US16: Individual I34 Name: Winga not matched with family first name: Jane
+ERROR: FAMILY: US16: Individual I35 Name: Chinga not matched with family first name: Jane
+ERROR: FAMILY: US16: Individual I43 Name: Hari Kava not matched with family first name: Kivi Kava
+ERROR: FAMILY: US16: Individual I44 Name: Harini Kava not matched with family first name: Kivi Kava
+ERROR: FAMILY: US16: Individual I58 Name: Iova Kava not matched with family first name: Tota Kava
+ERROR: FAMILY: US16: Individual I59 Name: Pova Kava not matched with family first name: Tota Kava
+ERROR: FAMILY: US16: Individual I62 Name: Iova Kava not matched with family first name: Tota Kava
+ERROR: FAMILY: US16: Individual I63 Name: Pova Kava not matched with family first name: Tota Kava
+ERROR: FAMILY: US16: Individual I66 Name: Dava Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I67 Name: Chigta Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I68 Name: Chugti Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I69 Name: Tuti Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I70 Name: Fruti Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I71 Name: Frota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I72 Name: Kota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I73 Name: Lota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I74 Name: Zota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I75 Name: Xota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I76 Name: Cota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I77 Name: Vota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I78 Name: Bota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I79 Name: Nota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I80 Name: Mota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I81 Name: Sota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I82 Name: Gota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I66 Name: Dava Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I67 Name: Chigta Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I68 Name: Chugti Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I69 Name: Tuti Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I70 Name: Fruti Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I71 Name: Frota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I72 Name: Kota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I73 Name: Lota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I74 Name: Zota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I75 Name: Xota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I76 Name: Cota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I77 Name: Vota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I78 Name: Bota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I79 Name: Nota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I80 Name: Mota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I81 Name: Sota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I82 Name: Gota Lava not matched with family first name: Rova Lava
+ERROR: FAMILY: US16: Individual I88 Name: Dickaaa /ZAA/ not matched with family first name: Zaa
+ERROR: FAMILY: US16: Individual I94 Name: Gilli Slick not matched with family first name: Slick
+ERROR: FAMILY: US16: Individual I95 Name: Chilli Slick not matched with family first name: Slick
+ERROR: FAMILY: US16: Individual I97 Name: Chimmi Slick not matched with family first name: Chilli Slick
+ERROR: FAMILY: US17: F41 Parents should not marry their descendants
+ERROR: FAMILY: US18 : Sibiings Id:I89,name:Zany /Zaa/ and  Id:I88,name:Dickaaa /ZAA/ are married
+ERROR: FAMILY: US19: The two first cousins I64 and I65 cannot be married together
+ERROR: US20 : I83 is married to their nephew or niece
+ERROR: US20 : I94 is married to their nephew or niece
+ERROR: FAMILY: US21 : Husband Id:I64,name:Rova Lava is not male
+ERROR: US22 : The ids:['F40', 'I82'] are repeated
+ERROR: INDIVIDUAL: US23: No more than one individual with the same name and birth date should appear in GEDCOM file
+ERROR: INDIVIDUAL: US23: No more than one individual with the same name and birth date should appear in GEDCOM file
+ERROR: US24 : husband, wife names or marriage date is occurring twice in Gedcom 
+ERROR: US24 : husband, wife names or marriage date is occurring twice in Gedcom 
+ERROR: US24 : husband, wife names or marriage date is occurring twice in Gedcom 
+US27: The list of individuals along with their ages are:{'I01': -1, 'I07': 38, 'I19': 38, 'I26': 36, 'I30': 0, 'I31': 10, 'I32': 1, 'I33': 0, 'I34': 263, 'I35': 169, 'I36': 0, 'I37': 0, 'I41': 52, 'I42': 51, 'I43': 5, 'I44': 4, 'I45': 4, 'I46': 4, 'I47': 29, 'I48': 28, 'I49': 27, 'I50': 26, 'I51': 21, 'I52': 24, 'I53': 23, 'I54': 22, 'I55': 21, 'I56': 209, 'I57': 208, 'I58': 85, 'I59': 84, 'I60': 30, 'I61': 29, 'I62': 7, 'I63': 7, 'I64': 49, 'I65': 48, 'I66': 7, 'I67': 7, 'I68': 7, 'I69': 7, 'I70': 7, 'I71': 7, 'I72': 7, 'I73': 7, 'I74': 7, 'I75': 7, 'I76': 7, 'I77': 7, 'I78': 7, 'I79': 7, 'I80': 7, 'I81': 7, 'I82': 7, 'I83': 59, 'I84': 59, 'I85': 38, 'I86': 41, 'I87': 40, 'I88': 32, 'I89': 31, 'I90': 30, 'I91': 29, 'I92': 59, 'I93': 59, 'I94': 39, 'I95': 38, 'I96': 38, 'I97': 17, 'I98': 59, 'I99': 59}
+F23
+F24
+F25
+F26
+F30
+F31
+F32
+F33
+F34
+F35
+F36
+F37
+F38
+F39
+F40
+F41
+F42
+F43
+F44
+F45
+F46
+F47
+I31
+I32
+I33
+I36
+I37
+I45
+I46
+I47
+I48
+I49
+I50
+I52
+I53
+I54
+I55
+I56
+I57
+I60
+I61
+I83
+I84
+I85
+I88
+I89
+I92
+I93
+I94
+I95
+I96
+I97
+ERROR: INDIVIDUAL: US36: The individual I98 died recently on 2019-11-05
+ERROR: INDIVIDUAL: US36: The individual I99 died recently on 2019-11-05
