@@ -88,3 +88,10 @@ def get_first_name(name):
         return value[1];
     except Exception as e:
         return name.split("/")[0]
+
+def checkDiffInDaysCompTodays(date1):
+    today = date.today().strftime("%Y-%m-%d")
+    d1 = datetime.strptime(date1, '%Y-%m-%d')
+    d2 = datetime.strptime(today, "%Y-%m-%d")
+    delta=d2-d1;
+    return delta.days;
