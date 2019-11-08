@@ -19,8 +19,10 @@ def us30_list_living_married(file):
         if indData.Alive == True and indData.Spouse!='NA':
             newindDict[key]= indData
     print('\n\nAfter filtering Individuals Information with condition living married people ----------------------->\n')
-    printTables_indData(newindDict);
-    return newindDict
+    error_string = f"US30: The list of individuals along with their ages are:{newindDict.keys()}"
+    error_list.append(error_string)
+    #printTables_indData(newindDict)
+    return error_list
     
 
 
