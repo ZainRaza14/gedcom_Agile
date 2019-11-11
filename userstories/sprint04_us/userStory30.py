@@ -11,7 +11,7 @@ US30 List all living married people in a GEDCOM file
 
 def us30_list_living_married(file):
     error_list = list()
-    printTables(file)
+    #printTables(file)
     indDict,famDict,errorList = parse_main(file)
     newindDict = dict()
     for key,indData in indDict.items():
