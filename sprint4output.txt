@@ -1,81 +1,82 @@
 
 
 Individuals Information----------------------->
-+-----+------------------+--------+------------+-----+-------+------------+-------+--------+
-|  ID |       Name       | Gender |  Birthday  | Age | Alive |   Death    | Child | Spouse |
-+-----+------------------+--------+------------+-----+-------+------------+-------+--------+
-| I01 |   Joe /Smith/    |   M    | 1960-07-15 |  -1 | False | 1959-12-31 |   NA  |  F23   |
-| I07 | Jennifer /Smith/ |   F    | 1960-09-23 |  38 | False | 1998-09-23 |   NA  |   NA   |
-| I19 |   Dick /Smith/   |   M    | 1981-02-13 |  38 |  True |     NA     |  F23  |   NA   |
-| I26 |   Jane /Smith/   |   F    | 1983-06-02 |  36 |  True |     NA     |  F23  |   NA   |
-| I30 |       Joel       |   M    | 2021-06-02 |  0  | False | 2021-12-31 |   NA  |  F24   |
-| I31 |      Jimmy       |   F    | 2009-06-02 |  10 |  True |     NA     |   NA  |  F24   |
-| I32 |       Jane       |   M    | 2018-06-02 |  1  |  True |     NA     |   NA  |  F25   |
-| I33 |      Wooly       |   F    | 2019-06-02 |  0  |  True |     NA     |   NA  |  F25   |
-| I34 |      Winga       |   F    | 1750-06-02 | 263 | False | 2013-12-31 |  F25  |   NA   |
-| I35 |      Chinga      |   F    | 1850-06-02 | 169 |  True |     NA     |  F25  |   NA   |
-| I36 |      Shini       |   M    | 2019-06-02 |  0  |  True |     NA     |   NA  |  F26   |
-| I37 |     Comango      |   F    | 2019-06-02 |  0  |  True |     NA     |   NA  |  F26   |
-| I41 |    Kivi Kava     |   M    | 1960-07-15 |  52 | False | 2012-12-31 |   NA  |  F30   |
-| I42 |    Shimi Kava    |   F    | 1960-09-23 |  51 | False | 2011-12-31 |   NA  |  F30   |
-| I43 |    Hari Kava     |   M    | 2014-02-13 |  5  |  True |     NA     |  F30  |   NA   |
-| I44 |   Harini Kava    |   F    | 2015-06-02 |  4  |  True |     NA     |  F30  |   NA   |
-| I45 |    Shimi Nava    |   M    | 2015-02-13 |  4  |  True |     NA     |   NA  |  F31   |
-| I46 |  Shimiana Nava   |   F    | 2015-06-02 |  4  |  True |     NA     |   NA  |  F31   |
-| I47 |    Nimi Cava     |   M    | 1990-02-13 |  29 |  True |     NA     |   NA  |  F33   |
-| I48 |    Nami Cava     |   F    | 1991-06-02 |  28 |  True |     NA     |   NA  |  F32   |
-| I49 |     Omi Cava     |   F    | 1992-02-13 |  27 |  True |     NA     |   NA  |  F33   |
-| I50 |    Zimi Hava     |   M    | 1993-06-02 |  26 |  True |     NA     |   NA  |  F35   |
-| I51 |    Zomi Hava     |   F    | 1994-02-13 |  21 | False | 2015-02-13 |   NA  |  F34   |
-| I52 |    Shigi Hava    |   F    | 1995-06-02 |  24 |  True |     NA     |   NA  |  F35   |
-| I53 |    Qiti Java     |   M    | 1996-02-13 |  23 |  True |     NA     |   NA  |  F37   |
-| I54 |    Qota Java     |   F    | 1997-06-02 |  22 |  True |     NA     |   NA  |  F36   |
-| I55 |    Rota Java     |   F    | 1998-06-02 |  21 |  True |     NA     |   NA  |  F37   |
-| I56 |    Tota Kava     |   M    | 1810-06-02 | 209 |  True |     NA     |   NA  |  F38   |
-| I57 |    Toti Kava     |   F    | 1811-06-02 | 208 |  True |     NA     |   NA  |  F38   |
-| I58 |    Iova Kava     |   M    | 1934-06-02 |  85 |  True |     NA     |  F38  |   NA   |
-| I59 |    Pova Kava     |   F    | 1935-06-02 |  84 |  True |     NA     |  F38  |   NA   |
-| I60 |    Tota Kava     |   M    | 1989-06-02 |  30 |  True |     NA     |   NA  |  F39   |
-| I61 |    Toti Kava     |   F    | 1990-06-02 |  29 |  True |     NA     |   NA  |  F39   |
-| I62 |    Iova Kava     |   M    | 2012-06-02 |  7  |  True |     NA     |  F39  |   NA   |
-| I63 |    Pova Kava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F39  |   NA   |
-| I64 |    Rova Lava     |   F    | 1970-08-02 |  49 |  True |     NA     |  F40  |   NA   |
-| I65 |    Chiva Lava    |   F    | 1971-08-02 |  48 |  True |     NA     |  F40  |   NA   |
-| I66 |    Dava Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I67 |   Chigta Lava    |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I68 |   Chugti Lava    |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I69 |    Tuti Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I70 |    Fruti Lava    |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I71 |    Frota Lava    |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I72 |    Kota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I73 |    Lota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I74 |    Zota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I75 |    Xota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I76 |    Cota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I77 |    Vota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I78 |    Bota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I79 |    Nota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I80 |    Mota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I81 |    Sota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I82 |    Gota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
-| I83 |    Ab /Clyne/    |   M    | 1960-07-15 |  59 |  True |     NA     |   NA  |  F41   |
-| I84 |   Abee /Clyne/   |   F    | 1960-09-23 |  59 |  True |     NA     |   NA  |  F41   |
-| I85 |   Aber /Clyne/   |   F    | 1981-02-13 |  38 |  True |     NA     |  F41  |  F42   |
-| I86 |    bab /Zaa/     |   M    | 1960-07-15 |  41 | False | 2001-12-31 |   NA  |  F43   |
-| I87 |    Babe /Zaa/    |   F    | 1960-09-23 |  40 | False | 2001-01-31 |   NA  |  F43   |
-| I88 |  Dickaaa /ZAA/   |   M    | 1987-02-13 |  32 |  True |     NA     |  F43  |  F44   |
-| I89 |    Zany /Zaa/    |   F    | 1988-11-02 |  31 |  True |     NA     |  F43  |  F44   |
-| I90 |   Robead /Zaa/   |   F    | 1989-06-02 |  30 |  True |     NA     |  F43  |   NA   |
-| I91 |   Clake /Zaa/    |   F    | 1990-06-02 |  29 |  True |     NA     |  F43  |   NA   |
-| I92 |  Clappy /Slick/  |   M    | 1960-07-15 |  59 |  True |     NA     |   NA  |  F45   |
-| I93 |  Clapsy /Slick/  |   F    | 1960-09-23 |  59 |  True |     NA     |   NA  |  F45   |
-| I94 |   Gilli Slick    |   F    | 1980-09-23 |  39 |  True |     NA     |  F45  |  F46   |
-| I95 |   Chilli Slick   |   M    | 1981-09-24 |  38 |  True |     NA     |  F45  |  F47   |
-| I96 |   Choli Slick    |   F    | 1981-09-29 |  38 |  True |     NA     |   NA  |  F47   |
-| I97 |   Chimmi Slick   |   M    | 2002-09-29 |  17 |  True |     NA     |  F47  |  F46   |
-| I98 |  Zimone /Zika/   |   M    | 1960-07-15 |  59 | False | 2019-11-05 |   NA  |   NA   |
-| I99 |  Zimona /Zika/   |   M    | 1960-07-15 |  59 | False | 2019-11-05 |   NA  |   NA   |
-+-----+------------------+--------+------------+-----+-------+------------+-------+--------+
++------+--------------------+--------+------------+-----+-------+------------+-------+--------+
+|  ID  |        Name        | Gender |  Birthday  | Age | Alive |   Death    | Child | Spouse |
++------+--------------------+--------+------------+-----+-------+------------+-------+--------+
+| I01  |    Joe /Smith/     |   M    | 1960-07-15 |  -1 | False | 1959-12-31 |   NA  |  F23   |
+| I07  |  Jennifer /Smith/  |   F    | 1960-09-23 |  38 | False | 1998-09-23 |   NA  |   NA   |
+| I19  |    Dick /Smith/    |   M    | 1981-02-13 |  38 |  True |     NA     |  F23  |   NA   |
+| I26  |    Jane /Smith/    |   F    | 1983-06-02 |  36 |  True |     NA     |  F23  |   NA   |
+| I30  |        Joel        |   M    | 2021-06-02 |  0  | False | 2021-12-31 |   NA  |  F24   |
+| I31  |       Jimmy        |   F    | 2009-06-02 |  10 |  True |     NA     |   NA  |  F24   |
+| I32  |        Jane        |   M    | 2018-06-02 |  1  |  True |     NA     |   NA  |  F25   |
+| I33  |       Wooly        |   F    | 2019-06-02 |  0  |  True |     NA     |   NA  |  F25   |
+| I34  |       Winga        |   F    | 1750-06-02 | 263 | False | 2013-12-31 |  F25  |   NA   |
+| I35  |       Chinga       |   F    | 1850-06-02 | 169 |  True |     NA     |  F25  |   NA   |
+| I36  |       Shini        |   M    | 2019-06-02 |  0  |  True |     NA     |   NA  |  F26   |
+| I37  |      Comango       |   F    | 2019-06-02 |  0  |  True |     NA     |   NA  |  F26   |
+| I41  |     Kivi Kava      |   M    | 1960-07-15 |  52 | False | 2012-12-31 |   NA  |  F30   |
+| I42  |     Shimi Kava     |   F    | 1960-09-23 |  51 | False | 2011-12-31 |   NA  |  F30   |
+| I43  |     Hari Kava      |   M    | 2014-02-13 |  5  |  True |     NA     |  F30  |   NA   |
+| I44  |    Harini Kava     |   F    | 2015-06-02 |  4  |  True |     NA     |  F30  |   NA   |
+| I45  |     Shimi Nava     |   M    | 2015-02-13 |  4  |  True |     NA     |   NA  |  F31   |
+| I46  |   Shimiana Nava    |   F    | 2015-06-02 |  4  |  True |     NA     |   NA  |  F31   |
+| I47  |     Nimi Cava      |   M    | 1990-02-13 |  29 |  True |     NA     |   NA  |  F33   |
+| I48  |     Nami Cava      |   F    | 1991-06-02 |  28 |  True |     NA     |   NA  |  F32   |
+| I49  |      Omi Cava      |   F    | 1992-02-13 |  27 |  True |     NA     |   NA  |  F33   |
+| I50  |     Zimi Hava      |   M    | 1993-06-02 |  26 |  True |     NA     |   NA  |  F35   |
+| I51  |     Zomi Hava      |   F    | 1994-02-13 |  21 | False | 2015-02-13 |   NA  |  F34   |
+| I52  |     Shigi Hava     |   F    | 1995-06-02 |  24 |  True |     NA     |   NA  |  F35   |
+| I53  |     Qiti Java      |   M    | 1996-02-13 |  23 |  True |     NA     |   NA  |  F37   |
+| I54  |     Qota Java      |   F    | 1997-06-02 |  22 |  True |     NA     |   NA  |  F36   |
+| I55  |     Rota Java      |   F    | 1998-06-02 |  21 |  True |     NA     |   NA  |  F37   |
+| I56  |     Tota Kava      |   M    | 1810-06-02 | 209 |  True |     NA     |   NA  |  F38   |
+| I57  |     Toti Kava      |   F    | 1811-06-02 | 208 |  True |     NA     |   NA  |  F38   |
+| I58  |     Iova Kava      |   M    | 1934-06-02 |  85 |  True |     NA     |  F38  |   NA   |
+| I59  |     Pova Kava      |   F    | 1935-06-02 |  84 |  True |     NA     |  F38  |   NA   |
+| I60  |     Tota Kava      |   M    | 1989-06-02 |  30 |  True |     NA     |   NA  |  F39   |
+| I61  |     Toti Kava      |   F    | 1990-06-02 |  29 |  True |     NA     |   NA  |  F39   |
+| I62  |     Iova Kava      |   M    | 2012-06-02 |  7  |  True |     NA     |  F39  |   NA   |
+| I63  |     Pova Kava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F39  |   NA   |
+| I64  |     Rova Lava      |   F    | 1970-08-02 |  49 |  True |     NA     |  F40  |   NA   |
+| I65  |     Chiva Lava     |   F    | 1971-08-02 |  48 |  True |     NA     |  F40  |   NA   |
+| I66  |     Dava Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I67  |    Chigta Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I68  |    Chugti Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I69  |     Tuti Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I70  |     Fruti Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I71  |     Frota Lava     |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I72  |     Kota Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I73  |     Lota Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I74  |     Zota Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I75  |     Xota Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I76  |     Cota Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I77  |     Vota Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I78  |     Bota Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I79  |     Nota Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I80  |     Mota Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I81  |     Sota Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I82  |     Gota Lava      |   F    | 2012-08-02 |  7  |  True |     NA     |  F40  |   NA   |
+| I83  |     Ab /Clyne/     |   M    | 1960-07-15 |  59 |  True |     NA     |   NA  |  F41   |
+| I84  |    Abee /Clyne/    |   F    | 1960-09-23 |  59 |  True |     NA     |   NA  |  F41   |
+| I85  |    Aber /Clyne/    |   F    | 1981-02-13 |  38 |  True |     NA     |  F41  |  F42   |
+| I86  |     bab /Zaa/      |   M    | 1960-07-15 |  41 | False | 2001-12-31 |   NA  |  F43   |
+| I87  |     Babe /Zaa/     |   F    | 1960-09-23 |  40 | False | 2001-01-31 |   NA  |  F43   |
+| I88  |   Dickaaa /ZAA/    |   M    | 1987-02-13 |  32 |  True |     NA     |  F43  |  F44   |
+| I89  |     Zany /Zaa/     |   F    | 1988-11-02 |  31 |  True |     NA     |  F43  |  F44   |
+| I90  |    Robead /Zaa/    |   F    | 1989-06-02 |  30 |  True |     NA     |  F43  |   NA   |
+| I91  |    Clake /Zaa/     |   F    | 1990-06-02 |  29 |  True |     NA     |  F43  |   NA   |
+| I92  |   Clappy /Slick/   |   M    | 1960-07-15 |  59 |  True |     NA     |   NA  |  F45   |
+| I93  |   Clapsy /Slick/   |   F    | 1960-09-23 |  59 |  True |     NA     |   NA  |  F45   |
+| I94  |    Gilli Slick     |   F    | 1980-09-23 |  39 |  True |     NA     |  F45  |  F46   |
+| I95  |    Chilli Slick    |   M    | 1981-09-24 |  38 |  True |     NA     |  F45  |  F47   |
+| I96  |    Choli Slick     |   F    | 1981-09-29 |  38 |  True |     NA     |   NA  |  F47   |
+| I97  |    Chimmi Slick    |   M    | 2002-09-29 |  17 |  True |     NA     |  F47  |  F46   |
+| I98  |   Zimone /Zika/    |   M    | 1960-07-15 |  59 | False | 2019-11-05 |   NA  |   NA   |
+| I99  |   Zimona /Zika/    |   M    | 1960-07-15 |  59 | False | 2019-11-05 |   NA  |   NA   |
+| I100 | Zimonaika /Zikara/ |   M    | 2019-11-11 |  -1 | False | 2019-11-05 |   NA  |   NA   |
++------+--------------------+--------+------------+-----+-------+------------+-------+--------+
 
 
 Family Information----------------------->
@@ -117,6 +118,7 @@ ERROR: INDIVIDUAL: US02: I36: Birth Date OF Husband:2019-06-02 is after Marriage
 ERROR: INDIVIDUAL: US02: I61: Birth Date OF Wife:1990-06-02 is after Marriage Date:1933-02-10
 ERROR: INDIVIDUAL: US02: I60: Birth Date OF Husband:1989-06-02 is after Marriage Date:1933-02-10
 ERROR: INDIVIDUAL: US03: I01 : Died 1959-12-31 before born 1960-07-15 
+ERROR: INDIVIDUAL: US03: I100 : Died 2019-11-05 before born 2019-11-11 
 ERROR: FAMILY: US04: F26: Divorced 2017-02-14 before married 2018-02-14 
 ERROR: FAMILY: US05: F23 : Marriage of husband:I01 occurs after death
 ERROR: FAMILY: US05: F24 : Marriage of husband:I30 occurs after death
@@ -217,58 +219,416 @@ ERROR: INDIVIDUAL: US23: No more than one individual with the same name and birt
 ERROR: US24 : husband, wife names or marriage date is occurring twice in Gedcom 
 ERROR: US24 : husband, wife names or marriage date is occurring twice in Gedcom 
 ERROR: US24 : husband, wife names or marriage date is occurring twice in Gedcom 
-US27: The list of individuals along with their ages are:{'I01': -1, 'I07': 38, 'I19': 38, 'I26': 36, 'I30': 0, 'I31': 10, 'I32': 1, 'I33': 0, 'I34': 263, 'I35': 169, 'I36': 0, 'I37': 0, 'I41': 52, 'I42': 51, 'I43': 5, 'I44': 4, 'I45': 4, 'I46': 4, 'I47': 29, 'I48': 28, 'I49': 27, 'I50': 26, 'I51': 21, 'I52': 24, 'I53': 23, 'I54': 22, 'I55': 21, 'I56': 209, 'I57': 208, 'I58': 85, 'I59': 84, 'I60': 30, 'I61': 29, 'I62': 7, 'I63': 7, 'I64': 49, 'I65': 48, 'I66': 7, 'I67': 7, 'I68': 7, 'I69': 7, 'I70': 7, 'I71': 7, 'I72': 7, 'I73': 7, 'I74': 7, 'I75': 7, 'I76': 7, 'I77': 7, 'I78': 7, 'I79': 7, 'I80': 7, 'I81': 7, 'I82': 7, 'I83': 59, 'I84': 59, 'I85': 38, 'I86': 41, 'I87': 40, 'I88': 32, 'I89': 31, 'I90': 30, 'I91': 29, 'I92': 59, 'I93': 59, 'I94': 39, 'I95': 38, 'I96': 38, 'I97': 17, 'I98': 59, 'I99': 59}
-F23
-F24
-F25
-F26
-F30
-F31
-F32
-F33
-F34
-F35
-F36
-F37
-F38
-F39
-F40
-F41
-F42
-F43
-F44
-F45
-F46
-F47
-I31
-I32
-I33
-I36
-I37
-I45
-I46
-I47
-I48
-I49
-I50
-I52
-I53
-I54
-I55
-I56
-I57
-I60
-I61
-I83
-I84
-I85
-I88
-I89
-I92
-I93
-I94
-I95
-I96
-I97
+US27: The list of individuals along with their ages are:{'I01': -1, 'I07': 38, 'I19': 38, 'I26': 36, 'I30': 0, 'I31': 10, 'I32': 1, 'I33': 0, 'I34': 263, 'I35': 169, 'I36': 0, 'I37': 0, 'I41': 52, 'I42': 51, 'I43': 5, 'I44': 4, 'I45': 4, 'I46': 4, 'I47': 29, 'I48': 28, 'I49': 27, 'I50': 26, 'I51': 21, 'I52': 24, 'I53': 23, 'I54': 22, 'I55': 21, 'I56': 209, 'I57': 208, 'I58': 85, 'I59': 84, 'I60': 30, 'I61': 29, 'I62': 7, 'I63': 7, 'I64': 49, 'I65': 48, 'I66': 7, 'I67': 7, 'I68': 7, 'I69': 7, 'I70': 7, 'I71': 7, 'I72': 7, 'I73': 7, 'I74': 7, 'I75': 7, 'I76': 7, 'I77': 7, 'I78': 7, 'I79': 7, 'I80': 7, 'I81': 7, 'I82': 7, 'I83': 59, 'I84': 59, 'I85': 38, 'I86': 41, 'I87': 40, 'I88': 32, 'I89': 31, 'I90': 30, 'I91': 29, 'I92': 59, 'I93': 59, 'I94': 39, 'I95': 38, 'I96': 38, 'I97': 17, 'I98': 59, 'I99': 59, 'I100': -1}
+US28: The list of sibilings in sorting order according to their age are ['I19', 'I26']
+ERROR: INDIVIDUAL: US29: The individual I01 is dead
+ERROR: INDIVIDUAL: US29: The individual I07 is dead
+ERROR: INDIVIDUAL: US29: The individual I30 is dead
+ERROR: INDIVIDUAL: US29: The individual I34 is dead
+ERROR: INDIVIDUAL: US29: The individual I41 is dead
+ERROR: INDIVIDUAL: US29: The individual I42 is dead
+ERROR: INDIVIDUAL: US29: The individual I51 is dead
+ERROR: INDIVIDUAL: US29: The individual I86 is dead
+ERROR: INDIVIDUAL: US29: The individual I87 is dead
+ERROR: INDIVIDUAL: US29: The individual I98 is dead
+ERROR: INDIVIDUAL: US29: The individual I99 is dead
+ERROR: INDIVIDUAL: US29: The individual I100 is dead
+US30: The list of individuals along with their ages are:dict_keys(['I31', 'I32', 'I33', 'I36', 'I37', 'I45', 'I46', 'I47', 'I48', 'I49', 'I50', 'I52', 'I53', 'I54', 'I55', 'I56', 'I57', 'I60', 'I61', 'I83', 'I84', 'I85', 'I88', 'I89', 'I92', 'I93', 'I94', 'I95', 'I96', 'I97'])
+ERROR: INDIVIDUAL: US31: The individual I07 is single and above 30
+ERROR: INDIVIDUAL: US31: The individual I19 is single and above 30
+ERROR: INDIVIDUAL: US31: The individual I26 is single and above 30
+ERROR: INDIVIDUAL: US31: The individual I34 is single and above 30
+ERROR: INDIVIDUAL: US31: The individual I35 is single and above 30
+ERROR: INDIVIDUAL: US31: The individual I58 is single and above 30
+ERROR: INDIVIDUAL: US31: The individual I59 is single and above 30
+ERROR: INDIVIDUAL: US31: The individual I64 is single and above 30
+ERROR: INDIVIDUAL: US31: The individual I65 is single and above 30
+ERROR: INDIVIDUAL: US31: The individual I98 is single and above 30
+ERROR: INDIVIDUAL: US31: The individual I99 is single and above 30
+ERROR: INDIVIDUAL: US32: The individual I01 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I01 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I01 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I01 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I01 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I01 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I07 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I07 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I07 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I07 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I19 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I33 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I33 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I36 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I36 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I37 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I37 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I41 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I41 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I41 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I41 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I41 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I41 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I42 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I42 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I42 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I42 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I44 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I46 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I60 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I61 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I63 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I66 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I67 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I68 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I69 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I70 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I71 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I72 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I73 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I74 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I75 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I76 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I77 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I78 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I79 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I80 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I81 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I82 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I83 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I83 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I83 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I83 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I83 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I83 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I84 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I84 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I84 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I84 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I85 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I86 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I86 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I86 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I86 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I86 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I86 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I87 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I87 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I87 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I87 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I90 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I91 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I92 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I92 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I92 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I92 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I92 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I92 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I93 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I93 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I93 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I93 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I98 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I98 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I98 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I98 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I98 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I98 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I99 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I99 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I99 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I99 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I99 has multiple births
+ERROR: INDIVIDUAL: US32: The individual I99 has multiple births
+ERROR: INDIVIDUAL: US35: The individual I30 was born within the last 30 days
+ERROR: INDIVIDUAL: US35: The individual I100 was born within the last 30 days
 ERROR: INDIVIDUAL: US36: The individual I98 died recently on 2019-11-05
 ERROR: INDIVIDUAL: US36: The individual I99 died recently on 2019-11-05
+ERROR: INDIVIDUAL: US36: The individual I100 died recently on 2019-11-05

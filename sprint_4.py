@@ -3,6 +3,10 @@ from userstories.sprint04_us.userStory27 import us27_individual_ages
 from userstories.sprint04_us.userStory28 import us28_order_sibilings_by_age
 from userstories.sprint04_us.userStory30 import us30_list_living_married
 from userstories.sprint04_us.userStory36 import us36_list_recent_deaths
+from userstories.sprint04_us.userStory29 import us29_list_deceased
+from userstories.sprint04_us.userStory31 import us31_list_living_single
+from userstories.sprint04_us.userStory32 import us32_list_multiple_births
+from userstories.sprint04_us.userStory35 import us35_list_recent_births
 
 
 
@@ -80,7 +84,11 @@ def sprint_4_user_stories():
     #sprint4
     error_list.extend(us27_individual_ages(master_file_name))
     error_list.extend(us28_order_sibilings_by_age(master_file_name))
+    error_list.extend(us29_list_deceased(master_file_name))
     error_list.extend(us30_list_living_married(master_file_name))
+    error_list.extend(us31_list_living_single(master_file_name))
+    error_list.extend(us32_list_multiple_births(master_file_name))
+    error_list.extend(us35_list_recent_births(master_file_name))
     error_list.extend(us36_list_recent_deaths(master_file_name))
     
     

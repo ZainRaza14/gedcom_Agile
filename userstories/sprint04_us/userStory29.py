@@ -10,7 +10,7 @@ def us29_list_deceased(file):
 
     for iD in indDict:
         if indDict[iD].Death != 'NA':
-            error_string = f"US29: The individual {indDict[iD].indID} is dead"
+            error_string = f"ERROR: INDIVIDUAL: US29: The individual {indDict[iD].indID} is dead"
             error_list.append(error_string)
     
     return error_list
