@@ -18,9 +18,6 @@ def us27_individual_ages(file):
     
     return error_list
 
-    
-
-
 def user_story27_main():
     error_list= us27_individual_ages("us27testdata.ged")
     for eacherror in error_list:
