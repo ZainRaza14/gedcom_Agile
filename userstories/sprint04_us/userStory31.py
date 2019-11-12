@@ -10,7 +10,7 @@ def us31_list_living_single(file):
     
     for iD in indDict:
         if indDict[iD].Age > 30 and indDict[iD].Spouse == 'NA':
-            error_string = f"US31: The individual {indDict[iD].indID} is single and above 30" 
+            error_string = f"ERROR: INDIVIDUAL: US31: The individual {indDict[iD].indID} is single and above 30" 
             error_list.append(error_string)
             
     return error_list
