@@ -62,25 +62,25 @@ Individuals Information----------------------->
 
 
 Family Information----------------------->
-+-----+------------+------------+------------+--------------+---------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|  ID |  Married   |  Divorced  | Husband ID | Husband Name | Wife ID |    Wife Name     |                                                                                                                    Children                                                                                                                    |
-+-----+------------+------------+------------+--------------+---------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| F23 | 1980-02-14 | 1999-02-14 |    I01     | Joe /Smith/  |   I07   | Jennifer /Smith/ |                                                                                                                 ['I19', 'I26']                                                                                                                 |
-| F24 | 2022-02-14 | 2023-02-14 |    I30     |     Joel     |   I31   |      Jimmy       |                                                                                                                       []                                                                                                                       |
-| F25 | 2017-02-14 |     NA     |    I32     |     Jane     |   I33   |      Wooly       |                                                                                                                 ['I34', 'I35']                                                                                                                 |
-| F26 | 2018-02-14 | 2017-02-14 |    I36     |    Shini     |   I37   |     Comango      |                                                                                                                       []                                                                                                                       |
-| F30 | 1980-02-14 |     NA     |    I41     |  Kivi Kava   |   I42   |    Shimi Kava    |                                                                                                                 ['I43', 'I44']                                                                                                                 |
-| F31 | 2020-02-14 |     NA     |    I45     |  Shimi Nava  |   I46   |  Shimiana Nava   |                                                                                                                       []                                                                                                                       |
-| F32 | 2005-02-14 |     NA     |    I47     |  Nimi Cava   |   I48   |    Nami Cava     |                                                                                                                       []                                                                                                                       |
-| F33 | 2006-02-14 |     NA     |    I47     |  Nimi Cava   |   I49   |     Omi Cava     |                                                                                                                       []                                                                                                                       |
-| F34 | 2014-02-14 |     NA     |    I50     |  Zimi Hava   |   I51   |    Zomi Hava     |                                                                                                                       []                                                                                                                       |
-| F35 | 2015-02-11 |     NA     |    I50     |  Zimi Hava   |   I52   |    Shigi Hava    |                                                                                                                       []                                                                                                                       |
-| F36 | 2017-02-14 | 2018-02-14 |    I53     |  Qiti Java   |   I54   |    Qota Java     |                                                                                                                       []                                                                                                                       |
-| F37 | 2018-02-10 |     NA     |    I53     |  Qiti Java   |   I55   |    Rota Java     |                                                                                                                       []                                                                                                                       |
-| F38 | 1933-02-10 |     NA     |    I56     |  Tota Kava   |   I57   |    Toti Kava     |                                                                                                                 ['I58', 'I59']                                                                                                                 |
-| F39 | 1933-02-10 |     NA     |    I60     |  Tota Kava   |   I61   |    Toti Kava     |                                                                                                                 ['I62', 'I63']                                                                                                                 |
-| F40 | 1994-02-10 |     NA     |    I64     |  Rova Lava   |   I65   |    Chiva Lava    | ['I66', 'I67', 'I68', 'I69', 'I70', 'I71', 'I72', 'I73', 'I74', 'I75', 'I76', 'I77', 'I78', 'I79', 'I80', 'I81', 'I82', 'I66', 'I67', 'I68', 'I69', 'I70', 'I71', 'I72', 'I73', 'I74', 'I75', 'I76', 'I77', 'I78', 'I79', 'I80', 'I81', 'I82'] |
-+-----+------------+------------+------------+--------------+---------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-----+------------+------------+------------+--------------+---------+------------------+-------------------------------------------------------------------------------------------------------------------------+
+|  ID |  Married   |  Divorced  | Husband ID | Husband Name | Wife ID |    Wife Name     |                                                         Children                                                        |
++-----+------------+------------+------------+--------------+---------+------------------+-------------------------------------------------------------------------------------------------------------------------+
+| F23 | 1980-02-14 | 1999-02-14 |    I01     | Joe /Smith/  |   I07   | Jennifer /Smith/ |                                                      ['I19', 'I26']                                                     |
+| F24 | 2022-02-14 | 2023-02-14 |    I30     |     Joel     |   I31   |      Jimmy       |                                                            []                                                           |
+| F25 | 2017-02-14 |     NA     |    I32     |     Jane     |   I33   |      Wooly       |                                                      ['I34', 'I35']                                                     |
+| F26 | 2018-02-14 | 2017-02-14 |    I36     |    Shini     |   I37   |     Comango      |                                                            []                                                           |
+| F30 | 1980-02-14 |     NA     |    I41     |  Kivi Kava   |   I42   |    Shimi Kava    |                                                      ['I43', 'I44']                                                     |
+| F31 | 2020-02-14 |     NA     |    I45     |  Shimi Nava  |   I46   |  Shimiana Nava   |                                                            []                                                           |
+| F32 | 2005-02-14 |     NA     |    I47     |  Nimi Cava   |   I48   |    Nami Cava     |                                                            []                                                           |
+| F33 | 2006-02-14 |     NA     |    I47     |  Nimi Cava   |   I49   |     Omi Cava     |                                                            []                                                           |
+| F34 | 2014-02-14 |     NA     |    I50     |  Zimi Hava   |   I51   |    Zomi Hava     |                                                            []                                                           |
+| F35 | 2015-02-11 |     NA     |    I50     |  Zimi Hava   |   I52   |    Shigi Hava    |                                                            []                                                           |
+| F36 | 2017-02-14 | 2018-02-14 |    I53     |  Qiti Java   |   I54   |    Qota Java     |                                                            []                                                           |
+| F37 | 2018-02-10 |     NA     |    I53     |  Qiti Java   |   I55   |    Rota Java     |                                                            []                                                           |
+| F38 | 1933-02-10 |     NA     |    I56     |  Tota Kava   |   I57   |    Toti Kava     |                                                      ['I58', 'I59']                                                     |
+| F39 | 1933-02-10 |     NA     |    I60     |  Tota Kava   |   I61   |    Toti Kava     |                                                      ['I62', 'I63']                                                     |
+| F40 | 1994-02-10 |     NA     |    I64     |  Rova Lava   |   I65   |    Chiva Lava    | ['I66', 'I67', 'I68', 'I69', 'I70', 'I71', 'I72', 'I73', 'I74', 'I75', 'I76', 'I77', 'I78', 'I79', 'I80', 'I81', 'I82'] |
++-----+------------+------------+------------+--------------+---------+------------------+-------------------------------------------------------------------------------------------------------------------------+
 ERROR: INDIVIDUAL: US01: I30: Birthday 2021-06-02 is after todays date
 ERROR: INDIVIDUAL: US01: I30: Death Date 2021-12-31 is after todays date
 ERROR: FAMILY: US01: F24: Marriage Date 2022-02-14  is after todays date
@@ -157,23 +157,3 @@ ERROR: FAMILY: US16: Individual I79 Name: Nota Lava not matched with family firs
 ERROR: FAMILY: US16: Individual I80 Name: Mota Lava not matched with family first name: Rova Lava
 ERROR: FAMILY: US16: Individual I81 Name: Sota Lava not matched with family first name: Rova Lava
 ERROR: FAMILY: US16: Individual I82 Name: Gota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I66 Name: Dava Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I67 Name: Chigta Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I68 Name: Chugti Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I69 Name: Tuti Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I70 Name: Fruti Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I71 Name: Frota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I72 Name: Kota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I73 Name: Lota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I74 Name: Zota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I75 Name: Xota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I76 Name: Cota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I77 Name: Vota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I78 Name: Bota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I79 Name: Nota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I80 Name: Mota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I81 Name: Sota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US16: Individual I82 Name: Gota Lava not matched with family first name: Rova Lava
-ERROR: FAMILY: US19: The two first cousins I64 and I65 cannot be married together
-ERROR: FAMILY: US21 : Husband Id:I64,name:Rova Lava is not male
-ERROR: US22 : The ids:['I82', 'F40'] are repeated

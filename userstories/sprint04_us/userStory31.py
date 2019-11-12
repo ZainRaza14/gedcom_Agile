@@ -5,7 +5,7 @@ from datetime import datetime
 
 def us31_list_living_single(file):
     indDict,famDict,errorList = parse_main(file)
-    printTables(file)
+    #printTables(file)
     error_list = list()
     
     for iD in indDict:
