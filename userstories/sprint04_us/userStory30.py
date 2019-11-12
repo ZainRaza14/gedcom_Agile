@@ -23,12 +23,9 @@ def us30_list_living_married(file):
     error_list.append(error_string)
     #printTables_indData(newindDict)
     return error_list
-    
-
 
 def user_story30_main():
     newindDict= us30_list_living_married("us30testdata.ged")
-
 
 if __name__ == "__main__":
     user_story30_main()
