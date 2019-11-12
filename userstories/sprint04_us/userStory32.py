@@ -24,9 +24,6 @@ def us32_list_multiple_births(file):
     
     return error_list
 
-    
-
-
 def user_story32_main():
     error_list= us32_list_multiple_births("us32testdata.ged")
     for eacherror in error_list:
