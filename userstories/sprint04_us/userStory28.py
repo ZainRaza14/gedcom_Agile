@@ -27,11 +27,9 @@ def us28_order_sibilings_by_age(file):
     #print('\n\n After sorting sibilings in Descending order\n')
     #printTables_custom(indDict,famDict)
     return error_list
-
         
 def user_story28_main():
     famDict= us28_order_sibilings_by_age("us28testdata.ged")
-
 
 if __name__ == "__main__":
     user_story28_main()
