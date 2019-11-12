@@ -8,7 +8,7 @@ US36 List all recent deaths
 
 def us36_list_recent_deaths(file):
     error_list = list()
-    printTables(file)
+    #printTables(file)
     indDict,famDict,errorList = parse_main(file)
     for iD in indDict:
          if indDict[iD].Death != 'NA':

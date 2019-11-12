@@ -20,13 +20,17 @@ def us28_order_sibilings_by_age(file):
         sorted_x = sorted(id_age_dict.items(), key=operator.itemgetter(1),reverse=True)
         keys= collections.OrderedDict(sorted_x).keys();
         familyData.multChild= keys
-    print('\n\n After sorting sibilings in Descending order\n')
-    printTables_custom(indDict,famDict)
-    return famDict
+    famData= list(famDict.values())[0]
+    multiChild= famData.multChild
+    error_string= f"US28: The list of sibilings in sorting order according to their age are {list(multiChild)}"
+    error_list.append(error_string)
+    #print('\n\n After sorting sibilings in Descending order\n')
+    #printTables_custom(indDict,famDict)
+    return error_list
 
         
 def user_story28_main():
-    famDict= us28_order_sibilings_by_age("us18testdata.ged")
+    famDict= us28_order_sibilings_by_age("us28testdata.ged")
 
 
 if __name__ == "__main__":

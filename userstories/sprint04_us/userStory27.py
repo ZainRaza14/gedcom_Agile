@@ -7,7 +7,7 @@ US27 List ages for individuals
 
 def us27_individual_ages(file):
     error_list = list()
-    printTables(file)
+    #printTables(file)
     indDict,famDict,errorList = parse_main(file)
     agedict={};
     for iD in indDict:
